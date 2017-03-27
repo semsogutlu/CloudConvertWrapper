@@ -3,6 +3,12 @@ Async and Sync Cloud Convert Wrapper
 
 .NET driver for converting files through [CloudConvert](https://cloudconvert.com/)
 
+## Install
+
+```
+PM> Install-Package CloudConvertWrapper
+```
+
 ## Usage
 
 ```
@@ -13,8 +19,3 @@ var wc = new WebClient();
 wc.DownloadFile("http:" + result.Result, saveToFilename);
 ```
 
-## Install
-
-```
-PM> Install-Package CloudConvertWrapper
-```
