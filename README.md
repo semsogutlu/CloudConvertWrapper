@@ -12,3 +12,9 @@ var result = cc.Convert(inputFormat, outputFormat, desiredFileName, bytes);
 var wc = new WebClient();
 wc.DownloadFile("http:" + result.Result, saveToFilename);
 ```
+
+## Install
+
+```
+PM> Install-Package CloudConvertWrapper
+```
